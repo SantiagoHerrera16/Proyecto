@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://img.freepik.com/foto-gratis/plato-helados-palo_23-2148539352.jpg?w=996);
+    background-size: cover;
+    padding: 0 8%;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 70px; 
+    cursor: pointer;
+}
+
+.navbar nav ul {
+    display: flex;
+    gap: 30px; 
+    list-style: none;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 35px; 
+    font-weight: bold;
+    padding: 20px 10px; 
+    transition: background-color 0.3s; 
+}
+
+.navbar nav ul li a:hover {
+    background-color: rgba(200, 200, 200, 0.5); 
+}
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+    }
+
+    h1{
+        color: black;
+        font-size: 60px;
+    }
+    p{
+        color: black ;
+        font-size: 20px;}
+        .boton {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            background-color: #d434c7;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .boton:hover {
+            background-color: #000000;
+        }
+        
+        
+        .card{
+            width: 200px;
+            height: 230px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            
+            background-position: center;
+            background-size: cover;
+
+
+        }
+
+        .card1{
+            background-image: url(https://i0.wp.com/www.macabites.com/wp-content/uploads/2024/03/DSC02378-scaled.jpg?resize=610%2C915&ssl=1);
+        }
+        
+        .card2{
+            background-image: url(https://es.cravingsjournal.com/wp-content/uploads/2017/09/IMG_0144_c.jpg);
+            width: 200px;
+            height: 230px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            
+            background-position: center;
+            background-size: cover;
+
+        }
+        .card3{
+            width: 200px;
+            height: 230px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            background-image: url(https://cocinandosanoo.com/wp-content/uploads/2021/07/Helado-de-uvas-pasas-con-ron.jpg);
+            background-position: center;
+            background-size: cover;
+
+
+        }
+         .card4 {
+            width: 200px;
+            height: 230px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            background-image: url(https://assets.unileversolutions.com/recipes-v2/231124.jpg);
+            background-position: center;
+            background-size: cover;
+         }
